@@ -1,0 +1,173 @@
+a {
+	TEXT-DECORATION: none
+}
+a:link {
+	COLOR: #336633; TEXT-DECORATION: none
+}
+a:active {
+	COLOR: #336633; TEXT-DECORATION: none
+}
+a:visited {
+	COLOR: #336633; TEXT-DECORATION: none
+}
+a:hover {
+	COLOR: black; TEXT-DECORATION: none
+}
+.border_b {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #336633;
+	padding: 5px;
+}
+.border_lrb {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #336633;
+	border-right-color: #336633;
+	border-bottom-color: #336633;
+	border-left-color: #336633;
+	padding: 5px;
+	margin-top: 15px;
+}
+.border_lrbt {
+	padding: 5px;
+	margin-top: 15px;
+	border-top: 2px solid #336633;
+	border-right: 1px solid #336633;
+	border-bottom: 1px solid #336633;
+	border-left: 1px solid #336633;
+}
+.border_bt {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #336633;
+	padding: 5px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #336633;
+}
+.form_textfield {
+	border: 1px solid #999999;
+}
+.form_button {
+	border: 1px solid #999999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #CCCCCC;
+}
+body {
+	background-color: #eeffdd;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.nadpis_1_medium {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 17px;
+	font-weight: bold;
+}
+.nadpis_1_large {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.nadpis_1_small {
+	font-family: Arial, Helvetica, sans-serif;
+	color: maroon;
+	font-size: 14px;
+	font-weight: bold;
+}
+.read_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.info_text_xx-small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.info_text_x-small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.info_text_small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.nadpis_2_medium {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.nadpis_2_small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.nadpis_2_x-small {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.nadpis_2_xx-small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+}
+.size_x-small {
+	font-size: 8px;
+}
+.menu_0 {
+	font-size: 12px;
+	font-weight: bold;
+	text-indent: 12px;
+}
+.menu_1 {
+	font-size: 12px;
+	font-weight: bold;
+	text-indent: 17px;
+}
+.form_label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+.forum_prispevok_poradie {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	color:#666666;
+	text-align:right;
+	vertical-align:top;
+}
+
+.forum_stranka_poradia_dole {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#333333;
+	text-align:right;
+}
+
+.forum_stranka_poradia_hore {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#333333;
+	text-align:left;
+}
+
+span.otoc {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}

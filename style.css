@@ -1,0 +1,82 @@
+body{
+    flex-flow: wrap;
+display: flex;
+background-color: gainsboro;
+width: 100%;
+height: 2020px;
+}
+
+/*header{
+    
+    
+}*/
+
+
+/* div#header_image{
+    
+    height: 58px;
+}*/
+
+header div#language_flags{
+    position: absolute;
+    right: 5px;
+    top: 16px;
+}
+
+header div#date_panel{
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    border: groove;
+    border-radius: 5px;
+
+}
+
+
+
+/*aside#right_panel section div .info{
+
+}*/
+
+nav#linky{
+
+    width: -webkit-fill-available;
+
+}
+footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: groove;
+}
+#partneri{
+
+    position: absolute;
+    top: 100px;
+    left: 1022px;
+}
+
+
+aside#info_banner{
+    position: absolute;
+    top: 153px;
+    right: 327px;
+    left: 275px;
+}
+#main_content{
+    top: 109px;
+    /* display: flow-root; */
+    position: relative;
+    left: 5px;
+}
+
+
+
+.pagination{
+    
+    bottom: -1264px;
+    font-size: 11px;
+    
+}

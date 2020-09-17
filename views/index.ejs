@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+	<title>:: Ranč Transylwahnja - Rodinná biofarma :: </title>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<meta name="keywords" content="KOMPOST, BIO FARMA, UBYTOVANIE, SHIRE
+         HORSE, DOVOLENKA , TURISTIKA, ŠVAJČIARI, JERSEY, FERIEN AUF DEM BIOHOF, BIOPRODUKT, Rodinná farma, biofarma">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<%- include('partials/header'); %>
+	</header>
+
+	<nav id="linky">
+		<%- include("partials/nav", {menu, page}); %>
+	</nav>
+
+	<main>
+		<%- include("pages/"+page); %>
+	</main>
+	<aside id="right_panel">
+		<%- include("partials/right_panel"); %>
+	</aside>
+
+	<footer>
+		&copy; <a href="http://www.transylwahnja.eu">www.transylwahnja.eu</a>, 2006-2007
+	</footer>
+</body>
+
+</html>
